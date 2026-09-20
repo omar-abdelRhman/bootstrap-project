@@ -1,0 +1,847 @@
+
+
+/* header */
+@media (max-width: 991.98px) {
+  .mega-menu {
+    padding: 1.5rem 1rem;
+  }
+  .hero-title {
+    font-size: 2.4rem;
+  }
+  .hero-image {
+    height: 320px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-title {
+    font-size: 1.9rem;
+  }
+  .hero-stats {
+    text-align: center;
+  }
+}
+/* header */
+
+
+
+/* technology */
+@media (max-width: 991px) {
+
+    .technology-title h1 {
+        font-size: 26px;
+    }
+
+    .technology-tabs {
+        width: 90%;
+    }
+
+    .technology-tabs .tab {
+        padding: 12px 17px;
+    }
+
+    .technology-content {
+        width: 92%;
+    }
+
+}
+
+
+
+
+@media (max-width: 767px) {
+
+    .technology-section {
+        padding: 40px 0;
+    }
+
+    .technology-title {
+        margin-bottom: 35px;
+    }
+
+    .technology-title h1 {
+        font-size: 23px;
+    }
+
+    .technology-title p {
+        font-size: 9px;
+        padding: 0 15px;
+    }
+
+    .technology-title p br {
+        display: none;
+    }
+
+
+    .technology-tabs {
+        width: 100%;
+        justify-content: flex-start;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    .technology-tabs::-webkit-scrollbar {
+        display: none;
+    }
+
+    .technology-tabs .tab {
+        flex-shrink: 0;
+        padding: 12px 16px;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+
+    .technology-content {
+        width: 100%;
+        margin-top: 27px;
+    }
+
+    .technology-content h2 {
+        font-size: 14px;
+    }
+
+    .technology-content > p {
+        font-size: 9px;
+        padding: 0 10px;
+        margin-bottom: 24px;
+    }
+
+
+
+    .tech-card {
+        height: auto;
+        min-height: 200px;
+        padding: 18px;
+    }
+
+}
+
+
+
+
+@media (max-width: 575px) {
+
+    .technology-title h1 {
+        font-size: 20px;
+    }
+
+    .technology-title p {
+        font-size: 8.5px;
+    }
+
+    .technology-tabs .tab {
+        padding: 11px 13px;
+        font-size: 9px;
+    }
+
+    .technology-tabs .tab i {
+        font-size: 9px;
+    }
+
+    .tech-card {
+        min-height: 195px;
+    }
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .testimonials-section {
+        padding: 60px 0 45px;
+    }
+
+
+    .testimonials-heading {
+        margin-bottom: 40px;
+    }
+
+
+    .testimonials-heading h2 {
+        font-size: 25px;
+    }
+
+
+    .testimonials-heading p {
+        font-size: 12px;
+    }
+
+
+    .testimonial-carousel {
+        width: 90%;
+    }
+
+
+    .testimonial-card {
+        height: 250px;
+
+        padding: 25px;
+    }
+
+}
+/* technology */
+
+
+
+/* skills */
+@media (max-width: 576px) {
+
+    .testimonials-section {
+        padding: 50px 0 40px;
+    }
+
+
+    .testimonials-heading {
+        margin-bottom: 35px;
+    }
+
+
+    .testimonials-heading h2 {
+        font-size: 22px;
+    }
+
+
+    .testimonials-heading p {
+        font-size: 11px;
+    }
+
+
+    .testimonial-carousel {
+        width: 94%;
+    }
+
+
+    .testimonial-card {
+        height: 310px;
+
+        padding: 20px;
+    }
+
+
+    .testimonial-text {
+        margin: 20px 0;
+
+        font-size: 11px;
+        line-height: 1.7;
+    }
+
+
+    .testimonial-bottom {
+        align-items: flex-end;
+    }
+
+
+    .client-details h4 {
+        font-size: 10px;
+    }
+
+
+    .client-details p {
+        font-size: 7px;
+    }
+
+
+    .client-details small {
+        font-size: 6px;
+    }
+
+
+    .result strong {
+        font-size: 17px;
+    }
+
+
+    .result span {
+        font-size: 7px;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+
+    .testimonial-card {
+        height: 335px;
+
+        padding: 17px;
+    }
+
+
+    .quote-icon {
+        width: 38px;
+        height: 38px;
+    }
+
+
+    .verified {
+        padding: 4px 7px;
+    }
+
+
+    .testimonial-text {
+        font-size: 10px;
+    }
+
+}
+
+/* skills */
+
+
+
+
+
+/* slider */
+@media (max-width: 768px) {
+
+    .faq-section {
+        padding: 60px 0 50px;
+    }
+
+
+    .faq-heading {
+        margin-bottom: 40px;
+    }
+
+
+    .faq-heading h2 {
+        font-size: 25px;
+    }
+
+
+    .faq-heading p {
+        font-size: 10px;
+    }
+
+
+    .faq-accordion {
+        width: 90%;
+        max-width: 545px;
+    }
+
+
+    .faq-accordion .accordion-button {
+        min-height: 50px;
+
+        padding: 0 13px;
+
+        font-size: 9px;
+    }
+
+
+    .faq-icon {
+        width: 24px;
+        height: 24px;
+
+        font-size: 8px;
+    }
+
+
+    .faq-accordion .accordion-body {
+        padding: 0 13px 13px;
+
+        font-size: 8px;
+    }
+
+}
+
+
+
+@media (max-width: 576px) {
+
+    .faq-section {
+        padding: 50px 0 45px;
+    }
+
+
+    .faq-heading {
+        margin-bottom: 32px;
+    }
+
+
+    .faq-badge {
+        padding: 5px 10px;
+
+        font-size: 8px;
+    }
+
+
+    .faq-heading h2 {
+        margin-top: 11px;
+
+        font-size: 22px;
+    }
+
+
+    .faq-heading p {
+        font-size: 9px;
+        line-height: 1.6;
+    }
+
+
+    .faq-accordion {
+        width: 94%;
+        max-width: none;
+    }
+
+
+    .faq-accordion .accordion-item {
+        margin-bottom: 7px;
+
+        border-radius: 9px;
+    }
+
+
+    .faq-accordion .accordion-button {
+        min-height: 48px;
+
+        padding: 0 11px;
+
+        font-size: 8px;
+    }
+
+
+    .faq-icon {
+        width: 23px;
+        height: 23px;
+
+        font-size: 7px;
+    }
+
+
+    .faq-accordion .accordion-body {
+        padding: 0 11px 12px;
+
+        font-size: 7px;
+        line-height: 1.7;
+    }
+
+
+    .faq-list li {
+        font-size: 7px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .faq-section {
+        padding: 45px 0 40px;
+    }
+
+
+    .faq-heading h2 {
+        font-size: 20px;
+    }
+
+
+    .faq-heading p {
+        font-size: 8px;
+    }
+
+
+    .faq-accordion {
+        width: 96%;
+    }
+
+
+    .faq-accordion .accordion-button {
+        min-height: 46px;
+
+        padding: 0 10px;
+
+        font-size: 7px;
+    }
+
+
+    .faq-icon {
+        width: 21px;
+        height: 21px;
+
+        font-size: 7px;
+    }
+
+
+    .faq-accordion .accordion-body {
+        padding: 0 10px 11px;
+
+        font-size: 6.5px;
+    }
+
+
+    .faq-list li {
+        font-size: 6.5px;
+    }
+
+}
+
+/* slider */
+
+
+
+/* .........form............ */
+@media (max-width: 991px) {
+
+    .contact-section {
+        padding: 60px 0 60px;
+    }
+
+
+    .contact-heading {
+        margin-bottom: 38px;
+    }
+
+
+    .consultation-card {
+        width: 700px;
+        max-width: 92%;
+    }
+
+
+    .consultation-form {
+        padding: 24px 22px;
+    }
+
+
+    .why-choose {
+        padding: 24px 20px;
+    }
+
+}
+
+
+
+@media (max-width: 767px) {
+
+    .contact-section {
+        padding: 50px 0 50px;
+    }
+
+
+    .contact-heading {
+        margin-bottom: 32px;
+    }
+
+
+    .contact-badge {
+        font-size: 8px;
+    }
+
+
+    .contact-heading h2 {
+        font-size: 25px;
+    }
+
+
+    .contact-heading p {
+        font-size: 9px;
+    }
+
+
+    .consultation-card {
+        width: 94%;
+        max-width: none;
+    }
+
+
+    .consultation-form {
+        padding: 22px 19px;
+    }
+
+
+    .consultation-form h3 {
+        font-size: 14px;
+    }
+
+
+    .form-intro {
+        font-size: 8px;
+    }
+
+
+    .consultation-form .form-control,
+    .consultation-form .form-select {
+        height: 36px;
+
+        font-size: 9px;
+    }
+
+
+    .why-choose {
+        min-height: auto;
+
+        padding: 24px 20px;
+    }
+
+
+    .why-choose h3 {
+        font-size: 14px;
+    }
+
+
+    .budget-options {
+        gap: 6px;
+    }
+
+
+    .budget-content strong {
+        font-size: 8px;
+    }
+
+
+    .budget-content small {
+        font-size: 6px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .contact-section {
+        padding: 45px 0 45px;
+    }
+
+
+    .contact-heading h2 {
+        font-size: 22px;
+    }
+
+
+    .contact-heading p {
+        font-size: 8px;
+    }
+
+
+    .consultation-card {
+        width: 95%;
+    }
+
+
+    .consultation-form {
+        padding: 20px 16px;
+    }
+
+
+    .consultation-form h3 {
+        font-size: 13px;
+    }
+
+
+    .form-intro {
+        font-size: 7px;
+    }
+
+
+    .form-label {
+        font-size: 8px;
+    }
+
+
+    .consultation-form .form-control,
+    .consultation-form .form-select {
+        height: 35px;
+
+        font-size: 8px;
+    }
+
+
+    .project-message {
+        height: 95px !important;
+    }
+
+
+    .budget-options {
+        grid-template-columns: 1fr;
+    }
+
+
+    .budget-option {
+        min-height: 42px;
+    }
+
+
+    .privacy-check {
+        align-items: flex-start;
+    }
+
+
+    .privacy-check .form-check-label {
+        font-size: 7px;
+        line-height: 1.5;
+    }
+
+
+    .consultation-btn {
+        height: 37px;
+
+        font-size: 8px;
+    }
+
+
+    .why-choose {
+        padding: 22px 18px;
+    }
+
+
+    .benefit-item {
+        margin-bottom: 15px;
+    }
+
+
+    .contact-info div {
+        font-size: 8px;
+    }
+
+}
+
+
+
+@media (max-width: 400px) {
+
+    .contact-section {
+        padding: 40px 0;
+    }
+
+
+    .contact-heading h2 {
+        font-size: 20px;
+    }
+
+
+    .consultation-card {
+        width: 96%;
+    }
+
+
+    .consultation-form {
+        padding: 18px 14px;
+    }
+
+
+    .consultation-form .row {
+        margin-bottom: 8px;
+    }
+
+
+    .consultation-form .form-control,
+    .consultation-form .form-select {
+        height: 34px;
+
+        font-size: 7px;
+    }
+
+
+    .form-label {
+        font-size: 7px;
+    }
+
+
+    .why-choose {
+        padding: 20px 16px;
+    }
+
+
+    .benefit-text h4 {
+        font-size: 8px;
+    }
+
+
+    .benefit-text p {
+        font-size: 6.5px;
+    }
+
+}
+
+/* form */
+
+
+
+
+
+/* .......footer......... */
+@media (max-width: 768px) {
+
+    .clarity-footer {
+        padding: 35px 0 20px;
+    }
+
+    .footer-top {
+        text-align: center;
+    }
+
+    .footer-brand {
+        margin-bottom: 25px;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .footer-line {
+        margin-top: 15px;
+    }
+
+}
+
+
+
+@media (max-width: 576px) {
+
+    .clarity-footer {
+        padding: 30px 0 18px;
+    }
+
+    .brand-box {
+        width: 34px;
+        height: 34px;
+    }
+
+    .footer-brand > span {
+        font-size: 17px;
+    }
+
+    .footer-brand p {
+        font-size: 10px;
+    }
+
+    .social-link {
+        width: 34px;
+        height: 34px;
+
+        font-size: 12px;
+    }
+
+    .social-links {
+        gap: 8px;
+    }
+
+    .footer-bottom p {
+        font-size: 10px;
+    }
+
+    .footer-bottom span {
+        font-size: 9px;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+
+    .footer-brand p br {
+        display: none;
+    }
+
+    .footer-brand p {
+        padding: 0 15px;
+    }
+
+    .social-link {
+        width: 32px;
+        height: 32px;
+    }
+
+}
